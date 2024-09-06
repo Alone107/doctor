@@ -231,6 +231,7 @@ img {
 /* -------------------------hero-------------------- */
 .hero {
   margin-top: 30px;
+  background: #f3f6f9;
 }
 
 .hero-name {
