@@ -1,0 +1,1214 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header-top bg-primary-subtle">
+          <div class="container-fluid">
+            <div class="header-block row py-2">
+              <div class="col-xl-5 nav-btn">
+                <nav class="navbar header-nav navbar-expand-md">
+                  <div class="container-fluid justify-content-end px-0">
+                    <span
+                      class="btn-menu"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#navbarSupportedContent"
+                      aria-controls="navbarSupportedContent"
+                      aria-expanded="false"
+                      aria-label="Toggle navigation"
+                    >
+                      <img src="assets/images/icon/burger.svg" alt="" />
+                    </span>
+                    <span
+                      class="btn-menu-2"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#navbarSupportedContent"
+                      aria-controls="navbarSupportedContent"
+                      aria-expanded="false"
+                      aria-label="Toggle navigation"
+                    >
+                      <img src="assets/images/icon/close.svg" alt="" />
+                    </span>
+                    <div
+                      class="collapse menu navbar-collapse"
+                      id="navbarSupportedContent"
+                    >
+                      <ul
+                        class="navigation d-flex justify-content-between navbar-nav me-auto mb-2 mb-lg-0"
+                      >
+                        <li class="d-block nav-item">
+                          <a class="nav-link" aria-current="page" href="#"
+                            >Обо мне</a
+                          >
+                        </li>
+                        <li class="d-block nav-item dropdown">
+                          <a
+                            class="nav-link dropdown-toggle"
+                            href="#"
+                            role="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false"
+                            data-bs-auto-close="outside"
+                          >
+                            Услуги и цены
+                          </a>
+                          <ul class="dropdown-menu py-0 list">
+                            <li class="dropdown">
+                              <a
+                                class="dropdown-item dropdown dropdown-toggle"
+                                role="button"
+                                aria-expanded="false"
+                                data-bs-toggle="dropdown"
+                                data-bs-auto-close="outside"
+                                href="#"
+                                >Консультации флеболога</a
+                              >
+                              <ul
+                                class="dropdown-menu dropdown list py-0 dropdown-menu-end"
+                              >
+                                <li>
+                                  <a class="dropdown-item" href="#"
+                                    >Первичный приём с УЗИ</a
+                                  >
+                                </li>
+                                <li>
+                                  <a class="dropdown-item" href="#"
+                                    >Первичный приём</a
+                                  >
+                                </li>
+                                <li>
+                                  <a class="dropdown-item" href="#"
+                                    >Повторный приём</a
+                                  >
+                                </li>
+                              </ul>
+                            </li>
+                            <li>
+                              <a class="dropdown-item" href="#"
+                                >Лазерная коагуляция вен</a
+                              >
+                            </li>
+                            <li>
+                              <a class="dropdown-item" href="#"
+                                >Минифлебэктомия</a
+                              >
+                            </li>
+                            <li>
+                              <a class="dropdown-item" href="#"
+                                >Склеротерапия вен под УЗИ</a
+                              >
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="d-block dropdown nav-item dropdown">
+                          <a
+                            class="nav-link dropdown-toggle"
+                            href="#"
+                            role="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false"
+                            data-bs-auto-close="outside"
+                          >
+                            Лечение
+                          </a>
+                          <ul class="dropdown-menu list">
+                            <li>
+                              <a class="dropdown-item" href="#"
+                                >Варикозная болезнь</a
+                              >
+                            </li>
+                            <li>
+                              <a class="dropdown-item" href="#"
+                                >Трофические язвы при варикозе</a
+                              >
+                            </li>
+                            <li>
+                              <a class="dropdown-item" href="#"
+                                >Посттромботическая болезнь</a
+                              >
+                            </li>
+                            <li>
+                              <a class="dropdown-item" href="#"
+                                >Сосудистые звёздочки</a
+                              >
+                            </li>
+                            <li>
+                              <a class="dropdown-item" href="#"
+                                >Тромбофлебит (воспаление)</a
+                              >
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="d-block nav-item dropdown">
+                          <a
+                            class="nav-link dropdown-toggle"
+                            href="#"
+                            role="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false"
+                            data-bs-auto-close="outside"
+                          >
+                            Пациентам
+                          </a>
+                          <ul class="dropdown-menu list">
+                            <li>
+                              <a class="dropdown-item" href="#"
+                                >Подготовка к операции при варикозе на ногах</a
+                              >
+                            </li>
+                            <li>
+                              <a class="dropdown-item" href="#"
+                                >Памятки и рекомендации</a
+                              >
+                            </li>
+                            <li>
+                              <a class="dropdown-item" href="#">Вопрос-ответ</a>
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="d-block nav-item">
+                          <a class="nav-link" aria-current="page" href="#"
+                            >Отзывы</a
+                          >
+                        </li>
+                        <li class="d-block nav-item">
+                          <a class="nav-link" aria-current="page" href="#"
+                            >Контакты</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </nav>
+              </div>
+              <div
+                class="d-flex width-div justify-content-between px-0 align-items-center col-xl-7"
+              >
+                <div class="d-flex align-items-center">
+                  <img class="me-2" src="assets/images/icon/time.svg" alt="" />
+                  <p class="my-0 header-info">Время работы: с 9:00 до 20:00</p>
+                </div>
+                <div class="d-flex align-items-center">
+                  <img class="me-2" src="assets/images/icon/mail.svg" alt="" />
+                  <a class="header-info" href="mailto:mail@doctor.ru"
+                    >mail@doctor.ru</a
+                  >
+                </div>
+                <div class="d-flex align-items-center">
+                  <img class="me-2" src="assets/images/icon/pen.svg" alt="" />
+                  <p class="my-0 me-2 header-info">Запись на приём:</p>
+                  <a class="header-info" href="tel:+78000000000"
+                    >+7 (800) 000-00-00</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="header-main">
+          <div class="container-fluid">
+            <div
+              class="row justify-content-center py-4 pb-3 align-items-center"
+            >
+              <div class="col-lg-5 px-0 header-block-name">
+                <p class="header-name my-0 text-center text-lg-start">
+                  Астафьева Евгения Валерьевна
+                </p>
+                <p class="my-0 header-name-job text-center text-lg-start">
+                  Врач-хирург, флеболог в Санкт-Петербурге
+                </p>
+              </div>
+              <div class="col-lg-7 px-0">
+                <nav class="navbar header-nav-2 navbar-expand-md">
+                  <div class="container-fluid px-0">
+                    <button
+                      class="navbar-toggler"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#navbarSupportedContent"
+                      aria-controls="navbarSupportedContent"
+                      aria-expanded="false"
+                      aria-label="Toggle navigation"
+                    >
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div
+                      class="collapse navbar-collapse"
+                      id="navbarSupportedContent"
+                    >
+                      <ul
+                        class="navigation d-flex justify-content-between navbar-nav me-auto mb-2 mb-lg-0"
+                      >
+                        <li class="d-block nav-item">
+                          <a class="nav-link" aria-current="page" href="#"
+                            >Обо мне</a
+                          >
+                        </li>
+                        <li class="d-block nav-item dropdown">
+                          <a
+                            class="nav-link"
+                            href="#"
+                            role="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false"
+                            data-bs-auto-close="outside"
+                          >
+                            Услуги и цены
+                          </a>
+                          <ul class="dropdown-menu py-0 list">
+                            <li class="dropend">
+                              <a
+                                class="dropdown-item drop-left dropend dropdown-toggle"
+                                role="button"
+                                aria-expanded="false"
+                                data-bs-toggle="dropdown"
+                                data-bs-auto-close="outside"
+                                href="#"
+                                >Консультации флеболога</a
+                              >
+                              <ul
+                                class="dropdown-menu dropend list py-0 dropdown-menu-end"
+                              >
+                                <li>
+                                  <a class="dropdown-item" href="#"
+                                    >Первичный приём с УЗИ</a
+                                  >
+                                </li>
+                                <li>
+                                  <a class="dropdown-item" href="#"
+                                    >Первичный приём</a
+                                  >
+                                </li>
+                                <li>
+                                  <a class="dropdown-item" href="#"
+                                    >Повторный приём</a
+                                  >
+                                </li>
+                              </ul>
+                            </li>
+                            <li>
+                              <a class="dropdown-item" href="#"
+                                >Лазерная коагуляция вен</a
+                              >
+                            </li>
+                            <li>
+                              <a class="dropdown-item" href="#"
+                                >Минифлебэктомия</a
+                              >
+                            </li>
+                            <li>
+                              <a class="dropdown-item" href="#"
+                                >Склеротерапия вен под УЗИ</a
+                              >
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="d-block nav-item dropdown">
+                          <a
+                            class="nav-link"
+                            href="#"
+                            role="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false"
+                            data-bs-auto-close="outside"
+                          >
+                            Лечение
+                          </a>
+                          <ul class="dropdown-menu list">
+                            <li>
+                              <a class="dropdown-item" href="#"
+                                >Варикозная болезнь</a
+                              >
+                            </li>
+                            <li>
+                              <a class="dropdown-item" href="#"
+                                >Трофические язвы при варикозе</a
+                              >
+                            </li>
+                            <li>
+                              <a class="dropdown-item" href="#"
+                                >Посттромботическая болезнь</a
+                              >
+                            </li>
+                            <li>
+                              <a class="dropdown-item" href="#"
+                                >Сосудистые звёздочки</a
+                              >
+                            </li>
+                            <li>
+                              <a class="dropdown-item" href="#"
+                                >Тромбофлебит (воспаление)</a
+                              >
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="d-block nav-item dropdown">
+                          <a
+                            class="nav-link"
+                            href="#"
+                            role="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false"
+                            data-bs-auto-close="outside"
+                          >
+                            Пациентам
+                          </a>
+                          <ul class="dropdown-menu list">
+                            <li>
+                              <a class="dropdown-item" href="#"
+                                >Подготовка к операции при варикозе на ногах</a
+                              >
+                            </li>
+                            <li>
+                              <a class="dropdown-item" href="#"
+                                >Памятки и рекомендации</a
+                              >
+                            </li>
+                            <li>
+                              <a class="dropdown-item" href="#">Вопрос-ответ</a>
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="d-block nav-item">
+                          <a class="nav-link" aria-current="page" href="#"
+                            >Отзывы</a
+                          >
+                        </li>
+                        <li class="d-block nav-item">
+                          <a class="nav-link" aria-current="page" href="#"
+                            >Контакты</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main class="main">
+        <section class="hero">
+          <div class="container-fluid">
+            <div class="row align-items-end justify-content-between">
+              <div
+                class="col-md-8 hero-info d-md-block d-flex align-items-center flex-column"
+              >
+                <h2 class="hero-name mb-3 text-primary">
+                  Астафьева Евгения Валерьевна
+                </h2>
+                <h4 class="fs-4 hero-desc">
+                  более 15 лет лечу вены, используя передовые лазерные
+                  технологии
+                </h4>
+                <p class="fs-4 d-sm-block d-none text-primary">
+                  избавьтесь от варикоза навсегда!
+                </p>
+                <div class="hero-block">
+                  <a class="btn-link py-3 px-3" href="#"
+                    >Записаться через Продокторов</a
+                  >
+                  <p>
+                    Нажмите кнопку “Записаться через Продокторов” и заполните
+                    простую форму, где подробно опишите свой вопрос, и я
+                    обязательно отвечу Вам в ближайшее время
+                  </p>
+                </div>
+                <div
+                  class="col-4 d-md-none d-block block-img d-flex justify-content-center"
+                >
+                  <img src="assets/images/main-hero.png" alt="" />
+                </div>
+                <div class="hero-wraper bg-primary-subtle">
+                  <div class="hero-blocks">
+                    <span class="mb-1">15 +</span>
+                    <p>лет успешной работы флебологом</p>
+                  </div>
+                  <div class="hero-blocks">
+                    <span class="mb-1">7 000 +</span>
+                    <p>проведенных операций и счастливых пациентов</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4 d-md-block d-none">
+                <img src="assets/images/main-hero.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="help">
+          <div class="container-fluid">
+            <h4>Я помогу вам, если у вас</h4>
+            <div class="help-wraper">
+              <div class="row gap-5">
+                <div class="help-wraper-block col-md">
+                  <h5>Тромбофлебит</h5>
+                  <p>
+                    воспаление поверхностно расположенной вены с образованием
+                    внутри нее кровяного сгустка (тромба), закрывающего ее
+                    просвет
+                  </p>
+                  <a class="btn-link p-3" href="#">Подробнее</a>
+                </div>
+                <div class="help-wraper-block col-md">
+                  <h5>Трофическая язва</h5>
+                  <p>
+                    длительно незаживающая рана на голени, плохо поддающаяся
+                    лечению мазями. Часто возникает на фоне варикозной болезни
+                  </p>
+                  <a class="btn-link p-3" href="#">Подробнее</a>
+                </div>
+                <div class="help-wraper-block col-md">
+                  <h5>Сосудистые звездочки</h5>
+                  <p>
+                    локально расширенная капиллярная сеть, проступающая через
+                    кожу в виде красной или фиолетовой паутинки
+                  </p>
+                  <a class="btn-link p-3" href="#">Подробнее</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="about">
+          <div class="container-fluid">
+            <h2 class="title">обо мне</h2>
+            <div class="row">
+              <div class="col-xl">
+                <h4>
+                  Рада приветствовать Вас на моем сайте! Если Вы ищете услуги
+                  врача-хирурга и флеболога в Санкт-Петербурге c большим опытом
+                  работы, то я готов помочь Вам, как в лечении варикоза любой
+                  сложности, так и в выполнении оперативных вмешательств в
+                  направлении амбулаторной хирургии.
+                </h4>
+                <div class="about-img">
+                  <img src="assets/images/about-1.png" alt="" />
+                </div>
+              </div>
+              <div class="col-xl">
+                <h4>
+                  Операция - это очень серьезный шаг в жизни человека, и
+                  благоприятный исход во многом зависит от профессионализма и
+                  опыта врача-хирурга. Предлагаю познакомиться со мной поближе.
+                  Если у Вас появятся вопросы - с удовольствием отвечу на все.
+                </h4>
+                <div class="about-block-mobile">
+                  <div class="about-block">
+                    <img src="assets/images/about-2.png" alt="" />
+                    <div class="about-block-info">
+                      <h5>
+                        Операции по поводу варикозной болезни вен нижних
+                        конечностей
+                      </h5>
+                      <p class="d-none d-sm-block">
+                        Наибольшая часть операций выполнена с помощью лазера.
+                        Применяю только миниинвазивные методики:
+                        минифлебэктомия, склеротерапия, лазер. Все операции
+                        производятся амбулаторно. Размер и количество
+                        расширенных вен для меня не имеет значения
+                      </p>
+                      <div class="span-block">
+                        <span>2 500 +</span>
+                        <p class="succes">Операций выполнено</p>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="d-block d-sm-none">
+                    Наибольшая часть операций выполнена с помощью лазера.
+                    Применяю только миниинвазивные методики: минифлебэктомия,
+                    склеротерапия, лазер. Все операции производятся амбулаторно.
+                    Размер и количество расширенных вен для меня не имеет
+                    значения
+                  </p>
+                </div>
+                <div class="about-block-mobile">
+                  <div class="about-block">
+                    <img
+                      class="order-1"
+                      src="assets/images/about-3.png"
+                      alt=""
+                    />
+                    <div class="about-block-info">
+                      <h5>
+                        Операции по поводу варикозной болезни вен нижних
+                        конечностей
+                      </h5>
+                      <p class="d-none d-sm-block">
+                        Наибольшая часть операций выполнена с помощью лазера.
+                        Применяю только миниинвазивные методики:
+                        минифлебэктомия, склеротерапия, лазер. Все операции
+                        производятся амбулаторно. Размер и количество
+                        расширенных вен для меня не имеет значения
+                      </p>
+                      <div class="span-block">
+                        <span>2 500 +</span>
+                        <p class="succes">Операций выполнено</p>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="d-block d-sm-none">
+                    Наибольшая часть операций выполнена с помощью лазера.
+                    Применяю только миниинвазивные методики: минифлебэктомия,
+                    склеротерапия, лазер. Все операции производятся амбулаторно.
+                    Размер и количество расширенных вен для меня не имеет
+                    значения
+                  </p>
+                </div>
+                <div class="about-block-mobile">
+                  <div class="about-block">
+                    <img src="assets/images/about-3.png" alt="" />
+                    <div class="about-block-info">
+                      <h5>
+                        Операции по поводу варикозной болезни вен нижних
+                        конечностей
+                      </h5>
+                      <p class="d-none d-sm-block">
+                        Наибольшая часть операций выполнена с помощью лазера.
+                        Применяю только миниинвазивные методики:
+                        минифлебэктомия, склеротерапия, лазер. Все операции
+                        производятся амбулаторно. Размер и количество
+                        расширенных вен для меня не имеет значения
+                      </p>
+                      <div class="span-block">
+                        <span>2 500 +</span>
+                        <p class="succes">Операций выполнено</p>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="d-block d-sm-none">
+                    Наибольшая часть операций выполнена с помощью лазера.
+                    Применяю только миниинвазивные методики: минифлебэктомия,
+                    склеротерапия, лазер. Все операции производятся амбулаторно.
+                    Размер и количество расширенных вен для меня не имеет
+                    значения
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="advantages">
+          <div class="container-fluid">
+            <h2 class="title">мои преимущества</h2>
+            <div class="advantages-wraper">
+              <div class="row justify-content-center">
+                <div class="adv-col col-lg-3">
+                  <div class="adv-icon-block">
+                    <div class="adv-icon">
+                      <img src="assets/images/icon/puzle.svg" alt="" />
+                    </div>
+                    <h4 class="d-block d-sm-none">
+                      комплексный подход в диагностике
+                    </h4>
+                  </div>
+                  <h4 class="d-sm-block d-none">
+                    комплексный подход в диагностике
+                  </h4>
+                  <p>
+                    Правильный диагноз – залог правильного и эффективного
+                    лечения. Комплексный подход предусматривает анализ данных,
+                    выполнение физикального обследования и
+                    лабораторно-инструментальных анализов с обязательным
+                    проведением грамотной дифференциальной диагностики
+                  </p>
+                </div>
+                <div class="adv-col col-lg-3">
+                  <div class="adv-icon-block">
+                    <div class="adv-icon">
+                      <img src="assets/images/icon/light.svg" alt="" />
+                    </div>
+                    <h4 class="d-block d-sm-none">
+                      Рациональные методы лечения
+                    </h4>
+                  </div>
+                  <h4 class="d-sm-block d-none">Рациональные методы лечения</h4>
+                  <p>
+                    После установления окончательного диагноза я планирую
+                    наиболее рациональный путь лечения. При этом хирургическое
+                    вмешательство не всегда является обязательным компонентом.
+                    При наличии же показаний к операции мы совместно с вами
+                    определяем наиболее подходящий для вас вид и способ
+                    вмешательства
+                  </p>
+                </div>
+                <div class="adv-col col-lg-3">
+                  <div class="adv-icon-block">
+                    <div class="adv-icon">
+                      <img src="assets/images/icon/like.svg" alt="" />
+                    </div>
+                    <h4 class="d-block d-sm-none">профилактика осложнений</h4>
+                  </div>
+                  <h4 class="d-sm-block d-none">профилактика осложнений</h4>
+                  <p>
+                    Любое хирургическое вмешательство несет в себе определенные
+                    опасности. Профилактика осложнений очень важна и начинается
+                    уже на консультации, когда выявляются противопоказания.
+                    Предоперационное обследование, строгое соблюдение техники
+                    операции и выполнение рекомендаций – залог скорейшего
+                    восстановления
+                  </p>
+                </div>
+                <div class="adv-col col-lg-3">
+                  <div class="adv-icon-block">
+                    <div class="adv-icon">
+                      <img src="assets/images/icon/files.svg" alt="" />
+                    </div>
+                    <h4 class="d-block d-sm-none">подробные рекомендации</h4>
+                  </div>
+                  <h4 class="d-sm-block d-none">подробные рекомендации</h4>
+                  <p>
+                    Успех лечения во многом зависит от нашего с вами
+                    взаимопонимания. Чтобы мы были «на одной волне», я подробно
+                    и доступно объясню все нюансы лечебного процесса, дам
+                    исчерпывающие ответы на волнующие вопросы, разъясню суть и
+                    смысл выполнения моих рекомендаций. Только после этого мы
+                    перейдем к самому лечению
+                  </p>
+                </div>
+                <div class="adv-col col-lg-3">
+                  <div class="adv-icon-block">
+                    <div class="adv-icon">
+                      <img src="assets/images/icon/sound.svg" alt="" />
+                    </div>
+                    <h4 class="d-block d-sm-none">информационная поддержка</h4>
+                  </div>
+                  <h4 class="d-sm-block d-none">информационная поддержка</h4>
+                  <p>
+                    Все мои пациенты получают подробные рекомендации по лечению
+                    в виде распечатанного документа. Вам не потребуется
+                    расшифровывать записи, написанные от руки. Практические
+                    рекомендации, полезные памятки и ответы на часто задаваемые
+                    вопросы можно найти на моем сайте. Если появились вопросы -
+                    задайте, и я отвечу в ближайшее время
+                  </p>
+                </div>
+                <div class="adv-col col-lg-3">
+                  <div class="adv-icon-block">
+                    <div class="adv-icon">
+                      <img src="assets/images/icon/watch.svg" alt="" />
+                    </div>
+                    <h4 class="d-block d-sm-none">
+                      Сопровождение после операции
+                    </h4>
+                  </div>
+                  <h4 class="d-sm-block d-none">
+                    Сопровождение после операции
+                  </h4>
+                  <p>
+                    В раннем послеоперационном периоде, в течение 3 недель, я
+                    бесплатно проконсультирую Вас по любым возникшим вопросам.
+                    Для этого позвоните или напишите мне. Если невозможно решить
+                    ситуацию по телефону или электронной почте, договоримся о
+                    личной встрече в ближайшее время – без дополнительной оплаты
+                    услуг
+                  </p>
+                </div>
+                <div class="adv-col col-lg-3">
+                  <div class="adv-icon-block">
+                    <div class="adv-icon">
+                      <img src="assets/images/icon/walet.svg" alt="" />
+                    </div>
+                    <h4 class="d-block d-sm-none">
+                      оптимальная стоимость лечения
+                    </h4>
+                  </div>
+                  <h4 class="d-sm-block d-none">
+                    оптимальная стоимость лечения
+                  </h4>
+                  <p>
+                    Стоимость лечения зависит от расходов на материалы и
+                    оборудование, которые применяются в ходе операций. Обычно
+                    наши цены ниже средних по Санкт-Петербургу. Если стоимость
+                    лечения кажется завышенной - значит используются более
+                    дорогие и качественные материалы. Выбираем только
+                    проверенную и безопасную продукцию, в которой уверены на
+                    100%
+                  </p>
+                </div>
+                <div class="adv-col col-lg-3">
+                  <div class="adv-icon-block">
+                    <div class="adv-icon">
+                      <img src="assets/images/icon/alert.svg" alt="" />
+                    </div>
+                    <h4 class="d-block d-sm-none">
+                      ДОСТУПНЫЙ КОНТАКТ С ВРАЧОМ
+                    </h4>
+                  </div>
+                  <h4 class="d-sm-block d-none">ДОСТУПНЫЙ КОНТАКТ С ВРАЧОМ</h4>
+                  <p>
+                    Вы можете связаться со мной любым из удобных способов – по
+                    телефону, WhatsApp, Viber, электронной почте или через
+                    контактную форму на этом сайте. Если не отвечаю на ваш
+                    звонок – пожалуйста, напишите сообщение. Часто бываю занята
+                    с другими пациентами. Cвяжусь с вами сразу, как только
+                    появится такая возможность. Работаю каждый день с 08:00 до
+                    18:00
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="uslugi">
+          <div class="container-fluid">
+            <h2 class="title">Услуги и цены</h2>
+            <div class="uslugi-wraper">
+              <div class="row justify-content-between">
+                <div class="col bg-white">
+                  <div class="usl-img">
+                    <img src="assets/images/uslugi-1.png" alt="" />
+                  </div>
+                  <h4>операции при варикозе</h4>
+                  <div class="uslugi-block">
+                    <p>ЭВЛК магистральной вены</p>
+                    <span>от 35 000 ₽</span>
+                  </div>
+                  <div class="uslugi-block">
+                    <p>ЭВЛК магистральной вены</p>
+                    <span>от 35 000 ₽</span>
+                  </div>
+                  <div class="uslugi-block">
+                    <p>ЭВЛК магистральной вены</p>
+                    <span>от 35 000 ₽</span>
+                  </div>
+                  <div class="uslugi-block">
+                    <p>ЭВЛК магистральной вены</p>
+                    <span>от 35 000 ₽</span>
+                  </div>
+                </div>
+                <div class="col bg-white">
+                  <div class="usl-img">
+                    <img src="assets/images/uslugi-2.png" alt="" />
+                  </div>
+                  <h4>операции при варикозе</h4>
+                  <div class="uslugi-block">
+                    <p>ЭВЛК магистральной вены</p>
+                    <span>от 35 000 ₽</span>
+                  </div>
+                  <div class="uslugi-block">
+                    <p>ЭВЛК магистральной вены</p>
+                    <span>от 35 000 ₽</span>
+                  </div>
+                  <div class="uslugi-block">
+                    <p>ЭВЛК магистральной вены</p>
+                    <span>от 35 000 ₽</span>
+                  </div>
+                  <div class="uslugi-block">
+                    <p>ЭВЛК магистральной вены</p>
+                    <span>от 35 000 ₽</span>
+                  </div>
+                </div>
+                <div class="col bg-white">
+                  <div class="usl-img">
+                    <img src="assets/images/uslugi-3.png" alt="" />
+                  </div>
+                  <h4>операции при варикозе</h4>
+                  <div class="uslugi-block">
+                    <p>ЭВЛК магистральной вены</p>
+                    <span>от 35 000 ₽</span>
+                  </div>
+                  <div class="uslugi-block">
+                    <p>ЭВЛК магистральной вены</p>
+                    <span>от 35 000 ₽</span>
+                  </div>
+                  <div class="uslugi-block">
+                    <p>ЭВЛК магистральной вены</p>
+                    <span>от 35 000 ₽</span>
+                  </div>
+                  <div class="uslugi-block">
+                    <p>ЭВЛК магистральной вены</p>
+                    <span>от 35 000 ₽</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="uslugi-btn-block">
+              <a class="uslugi-btn btn-link" href=""
+                >Смотреть все услуги и цены</a
+              >
+            </div>
+          </div>
+        </section>
+        <section class="otziv">
+          <div class="container-fluid">
+            <div class="otziv-row">
+              <div class="row">
+                <div class="col-md">
+                  <h2 class="title">Отзывы</h2>
+                </div>
+                <div class="col-md">
+                  <div class="otziv-star">
+                    <div class="star-block">
+                      <p>Отлично</p>
+                      <div class="star-icons">
+                        <img src="assets/images/icon/star.svg" alt="" />
+                        <img src="assets/images/icon/star.svg" alt="" />
+                        <img src="assets/images/icon/star.svg" alt="" />
+                        <img src="assets/images/icon/star.svg" alt="" />
+                        <img src="assets/images/icon/star.svg" alt="" />
+                      </div>
+                    </div>
+                    <div class="star-block">
+                      <p>21 отзыв на</p>
+                      <a href="#">
+                        <img src="assets/images/pro.png" alt="" />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container-fluid slider-cont">
+            <div class="otziv-slider">
+              <div class="swiper swiper-otziv">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide slide-otziv">
+                    <h5>Ольга вячеславовна</h5>
+                    <p>
+                      Обратилась с варикозом, беспокоила боль в ноге и тяжесть.
+                      Врач просто прекрасный, очень чуткий и внимательный.
+                      Быстро провела операцию и сопровождала ее пояснениями.
+                      Очень подробное информирование, вопросов почти не
+                      оставалось, так как врач все детально рассказывает. Всегда
+                      спрашивала как я себя чувствую во время операции, даже
+                      дали конфету для отвлечения. Советую!
+                    </p>
+                  </div>
+                  <div class="swiper-slide slide-otziv">
+                    <h5>Ольга вячеславовна</h5>
+                    <p>
+                      Обратилась с варикозом, беспокоила боль в ноге и тяжесть.
+                      Врач просто прекрасный, очень чуткий и внимательный.
+                      Быстро провела операцию и сопровождала ее пояснениями.
+                      Очень подробное информирование, вопросов почти не
+                      оставалось, так как врач все детально рассказывает. Всегда
+                      спрашивала как я себя чувствую во время операции, даже
+                      дали конфету для отвлечения. Советую!
+                    </p>
+                  </div>
+                  <div class="swiper-slide slide-otziv">
+                    <h5>Ольга вячеславовна</h5>
+                    <p>
+                      Обратилась с варикозом, беспокоила боль в ноге и тяжесть.
+                      Врач просто прекрасный, очень чуткий и внимательный.
+                      Быстро провела операцию и сопровождала ее пояснениями.
+                      Очень подробное информирование, вопросов почти не
+                      оставалось, так как врач все детально рассказывает. Всегда
+                      спрашивала как я себя чувствую во время операции, даже
+                      дали конфету для отвлечения. Советую!
+                    </p>
+                  </div>
+                </div>
+
+                <!-- If we need navigation buttons -->
+              </div>
+              <div class="swiper-otziv-button-prev">
+                <svg
+                  width="10"
+                  height="16"
+                  viewBox="0 0 10 16"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M8.82347 7.11763L2.04796 0.354096C1.93668 0.241895 1.80428 0.152839 1.65841 0.0920644C1.51253 0.03129 1.35606 0 1.19803 0C1.04 0 0.883539 0.03129 0.737663 0.0920644C0.591787 0.152839 0.459388 0.241895 0.348103 0.354096C0.125145 0.578385 0 0.881788 0 1.19804C0 1.51429 0.125145 1.8177 0.348103 2.04199L6.27368 8.02741L0.348103 13.953C0.125145 14.1773 0 14.4807 0 14.7969C0 15.1132 0.125145 15.4166 0.348103 15.6409C0.458971 15.754 0.591183 15.844 0.737078 15.9056C0.882973 15.9673 1.03965 15.9993 1.19803 16C1.35642 15.9993 1.51309 15.9673 1.65899 15.9056C1.80489 15.844 1.9371 15.754 2.04796 15.6409L8.82347 8.87734C8.94498 8.76525 9.04195 8.6292 9.10828 8.47777C9.17461 8.32633 9.20885 8.16281 9.20885 7.99749C9.20885 7.83217 9.17461 7.66864 9.10828 7.51721C9.04195 7.36578 8.94498 7.22973 8.82347 7.11763Z"
+                    fill="#3575DE"
+                  />
+                </svg>
+              </div>
+              <div class="swiper-otziv-button-next">
+                <svg
+                  width="10"
+                  height="16"
+                  viewBox="0 0 10 16"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M8.82347 7.11763L2.04796 0.354096C1.93668 0.241895 1.80428 0.152839 1.65841 0.0920644C1.51253 0.03129 1.35606 0 1.19803 0C1.04 0 0.883539 0.03129 0.737663 0.0920644C0.591787 0.152839 0.459388 0.241895 0.348103 0.354096C0.125145 0.578385 0 0.881788 0 1.19804C0 1.51429 0.125145 1.8177 0.348103 2.04199L6.27368 8.02741L0.348103 13.953C0.125145 14.1773 0 14.4807 0 14.7969C0 15.1132 0.125145 15.4166 0.348103 15.6409C0.458971 15.754 0.591183 15.844 0.737078 15.9056C0.882973 15.9673 1.03965 15.9993 1.19803 16C1.35642 15.9993 1.51309 15.9673 1.65899 15.9056C1.80489 15.844 1.9371 15.754 2.04796 15.6409L8.82347 8.87734C8.94498 8.76525 9.04195 8.6292 9.10828 8.47777C9.17461 8.32633 9.20885 8.16281 9.20885 7.99749C9.20885 7.83217 9.17461 7.66864 9.10828 7.51721C9.04195 7.36578 8.94498 7.22973 8.82347 7.11763Z"
+                    fill="#3575DE"
+                  />
+                </svg>
+              </div>
+              <div class="swiper-pagination otziv-pagination"></div>
+            </div>
+            <a href="#" class="btn-link btn-otziv d-block d-sm-none"
+              >Смотреть все отзывы</a
+            >
+            <a href="#" class="btn-link btn-otziv-send d-block d-sm-none"
+              >Оставить свой отзыв</a
+            >
+          </div>
+        </section>
+        <section class="states">
+          <div class="container-fluid">
+            <h2 class="title">Интересные статьи по флебологии</h2>
+            <div class="states-grid">
+              <div class="states-block">
+                <img src="assets/images/state-1.png" alt="" />
+                <div class="states-info">
+                  <h4>Что нужно знать о компрессионных чулках</h4>
+                  <p>
+                    Медицинский лечебный трикотаж и, в частности, компрессионные
+                    чулки — это особый вид тканных изделий, предназначенных для
+                    лечения и профилактики патологий венозного кровообращения и
+                    лимфооттока. При производстве используется...
+                  </p>
+                  <div class="states-btn">
+                    <a href="#">Читать статью</a>
+                  </div>
+                </div>
+              </div>
+              <div class="states-block states-2">
+                <img src="assets/images/state-3.png" alt="" />
+                <div class="states-info">
+                  <h4>
+                    ОТКУДА БЕРЕТСЯ ВАРИКОЗ НА НОГАХ, ЧТО ЭТО И КАК С НИМ
+                    БОРОТЬСЯ?
+                  </h4>
+                  <p>
+                    Варикозная болезнь вен нижних конечностей — это заболевание,
+                    характеризующееся нарушением функционирования вен на ногах.
+                    Может протекать без видимых признаков...
+                  </p>
+                  <div class="states-btn">
+                    <a href="#">Читать статью</a>
+                  </div>
+                </div>
+              </div>
+              <div class="states-block">
+                <img src="assets/images/state-2.png" alt="" />
+                <div class="states-info">
+                  <h4>
+                    УДАЛЕНИЕ ВЕН ЛАЗЕРОМ — ЭНДОВАЗАЛЬНАЯ ЛАЗЕРНАЯ КОАГУЛЯЦИЯ
+                  </h4>
+                  <p>
+                    Периодически у меня бывают пациенты, которые до последнего
+                    думают, что «лазерную» операцию на венах я выполняю с
+                    помощью устройства, похожего на меч из фильма «Звездные
+                    войны». Конечно, это не так...
+                  </p>
+                  <div class="states-btn">
+                    <a href="#">Читать статью</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="states-social">
+              <div class="row">
+                <div class="col-md-4">
+                  <p>
+                    Преходите в мои социальные сети, где я пишу много полезного
+                    о варикозе
+                  </p>
+                </div>
+                <div class="col-md-8">
+                  <div class="state-social-icon">
+                    <a class="btn-link" href="#">
+                      <img src="assets/images/tg.png" alt="" />
+                    </a>
+                    <a class="btn-link" href="#">
+                      <img src="assets/images/vk.png" alt="" />
+                    </a>
+                    <a class="btn-link" href="#">
+                      <img src="assets/images/yt.png" alt="" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="footer-top">
+          <div class="container-fluid">
+            <h3 class="title">Контакты</h3>
+            <div
+              class="row justify-content-between gap-4 align-items-center mb-5"
+            >
+              <div class="col-sm col-contact">
+                <img class="mb-4 map" src="assets/images/map.png" alt="" />
+                <div class="d-flex ms-3 mb-3 gap-2 align-items-center">
+                  <img src="assets/images/icon/pnone-icon.png" alt="" />
+                  <a class="fw-normal" href="tel:+78000000000"
+                    >+7 (800) 000-00-00</a
+                  >
+                </div>
+                <div class="d-flex ms-3 gap-2 mb-3 align-items-center">
+                  <img src="assets/images/icon/send.svg" alt="" />
+                  <a href="mailto:mail@doctor.ru">mail@doctor.ru</a>
+                </div>
+                <div class="d-flex ms-3 gap-2 mb-3 align-items-center">
+                  <img src="assets/images/icon/location.svg" alt="" />
+                  <a class="fw-normal"
+                    >г. Санкт-Петербург, Петроградский район ул. Ленина, д. 5
+                  </a>
+                </div>
+              </div>
+              <div class="col-sm col-contact">
+                <img class="mb-4 map" src="assets/images/map.png" alt="" />
+                <div class="d-flex ms-3 mb-3 gap-2 align-items-center">
+                  <img src="assets/images/icon/pnone-icon.png" alt="" />
+                  <a class="fw-normal" href="tel:+78000000000"
+                    >+7 (800) 000-00-00</a
+                  >
+                </div>
+                <div class="d-flex ms-3 gap-2 mb-3 align-items-center">
+                  <img src="assets/images/icon/send.svg" alt="" />
+                  <a href="mailto:mail@doctor.ru">mail@doctor.ru</a>
+                </div>
+                <div class="d-flex ms-3 gap-2 mb-3 align-items-center">
+                  <img src="assets/images/icon/location.svg" alt="" />
+                  <a class="fw-normal"
+                    >г. Санкт-Петербург, Петроградский район ул. Ленина, д. 5
+                  </a>
+                </div>
+              </div>
+              <div class="col-sm col-contact">
+                <img class="mb-4 map" src="assets/images/map.png" alt="" />
+                <div class="d-flex ms-3 mb-3 gap-2 align-items-center">
+                  <img src="assets/images/icon/pnone-icon.png" alt="" />
+                  <a class="fw-normal" href="tel:+78000000000"
+                    >+7 (800) 000-00-00</a
+                  >
+                </div>
+                <div class="d-flex ms-3 gap-2 mb-3 align-items-center">
+                  <img src="assets/images/icon/send.svg" alt="" />
+                  <a href="mailto:mail@doctor.ru">mail@doctor.ru</a>
+                </div>
+                <div class="d-flex ms-3 gap-2 mb-3 align-items-center">
+                  <img src="assets/images/icon/location.svg" alt="" />
+                  <a class="fw-normal"
+                    >г. Санкт-Петербург, Петроградский район ул. Ленина, д. 5
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="container-fluid">
+            <div class="row justify-content-between align-items-center g-2">
+              <div class="col-md-6">
+                <nav class="navbar navbar-expand-lg">
+                  <div class="container-fluid footer-cont">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a
+                          class="nav-link text-white footer-text-nav"
+                          aria-current="page"
+                          href="#"
+                          >Обо мне</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a
+                          class="nav-link text-white footer-text-nav"
+                          aria-current="page"
+                          href="#"
+                          >Услуги и цены</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a
+                          class="nav-link text-white footer-text-nav"
+                          aria-current="page"
+                          href="#"
+                          >Лечение</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a
+                          class="nav-link text-white footer-text-nav"
+                          aria-current="page"
+                          href="#"
+                          >Пациентам</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a
+                          class="nav-link text-white footer-text-nav"
+                          aria-current="page"
+                          href="#"
+                          >Отзывы
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a
+                          class="nav-link text-white footer-text-nav"
+                          aria-current="page"
+                          href="#"
+                          >Контакты</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </nav>
+              </div>
+              <div class="col-md-3 btn-footer-link order-1 order-md-0">
+                <a class="py-3 px-3 btn-link img-link btn-footer-pro" href="#"
+                  >Записаться через Продокторов</a
+                >
+              </div>
+              <div
+                class="footer-icons col-md-3 justify-content-end d-flex m-0 p-0 gap-3"
+              >
+                <a class="img-link" href="#">
+                  <img src="assets/images/icon/wt-icon.svg" alt="" />
+                </a>
+                <a class="img-link" href="#">
+                  <img src="assets/images/icon/vk-icon.svg" alt="" />
+                </a>
+                <a class="img-link" href="#">
+                  <img src="assets/images/icon/tg-icon.svg" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-conf">
+          <div class="container-fluid">
+            <p class="conf m-0 ms-4">© Все права защищены</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
